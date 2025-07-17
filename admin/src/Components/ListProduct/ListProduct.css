@@ -1,0 +1,45 @@
+.list-product {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-product h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #454545;
+}
+
+.listproduct-format-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr 1.5fr 1fr 1fr;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #454545;
+    padding: 10px 0px;
+}
+
+.listproduct-format {
+    align-items: center;
+    font-weight: 500;
+    flex-direction: column;
+    max-width: 850px;
+}
+
+.listproduct-product-icon {
+    width: 80px;
+    height: auto;
+}
+
+
+
+.listproduct-remove-icon {
+    cursor: pointer;
+}
+
+.listproduct-allproducts {
+    overflow-y: auto;
+    max-height: 400px;
+}
